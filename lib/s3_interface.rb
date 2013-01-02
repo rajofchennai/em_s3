@@ -85,6 +85,7 @@ class S3Interface
     @cb = cb if cb
     @bucket = bucket
     try_request
+    self
   end
   # Gets any of the objects from S3 buckets
   # @param [String] bucket
